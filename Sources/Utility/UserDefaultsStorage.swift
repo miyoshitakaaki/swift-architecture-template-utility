@@ -8,7 +8,7 @@ import Foundation
 /// static var isLogin: String?
 /// ```
 @propertyWrapper
-public class UserDefaultsStorage<T: LosslessStringConvertible> {
+public struct UserDefaultsStorage<T: LosslessStringConvertible> {
     private let key: String
 
     /// Initializes with the given key.
